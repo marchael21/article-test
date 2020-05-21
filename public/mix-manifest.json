@@ -1,0 +1,17 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/css/datepicker.css": "/css/datepicker.css",
+    "/css/datetimepicker.css": "/css/datetimepicker.css",
+    "/css/fullcalendar.css": "/css/fullcalendar.css",
+    "/css/summernote.css": "/css/summernote.css",
+    "/css/chosen.css": "/css/chosen.css",
+    "/css/toastr.css": "/css/toastr.css",
+    "/js/chosen.js": "/js/chosen.js",
+    "/js/datepicker.js": "/js/datepicker.js",
+    "/js/datetimepicker.js": "/js/datetimepicker.js",
+    "/js/fullcalendar.js": "/js/fullcalendar.js",
+    "/js/manifest.js": "/js/manifest.js",
+    "/js/summernote.js": "/js/summernote.js",
+    "/js/vendor.js": "/js/vendor.js"
+}

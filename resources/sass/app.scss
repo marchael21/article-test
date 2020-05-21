@@ -1,0 +1,191 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Font Awesome
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
+html {
+  	position: relative;
+  	min-height: 100%;
+}
+
+body {
+  	/* Margin bottom by footer height */
+  	margin-bottom: 60px;
+}
+
+.footer {
+  	position: absolute;
+  	bottom: 0;
+ 	  width: 100%;
+  	/* Set the fixed height of the footer here */
+  	min-height: 60px;
+  	line-height: 60px; /* Vertically center the text there */
+    /*border-top: 5px solid $orange-yellow;*/
+    /*background-color: $eerie-black;*/
+}
+
+@media (max-width: 587px){
+  
+  .footer{
+    position: static;
+  }
+}
+
+/*.breadcrumb-item + .breadcrumb-item::before {
+    font-family: "Font Awesome 5 Free";
+    font-size: 14px;
+    content: "\f105";
+    color: #B2B6BF;
+    font-weight: 600;
+}*/
+
+.navbar-nav .dropdown:hover>.dropdown-menu {
+  display: block;
+  margin-top: -2px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.125em;
+}
+
+#breadcrumb {
+  background: #e9ecef;
+}
+
+#search-booking-input {
+  width: 250px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 52px;
+  height: 26px;
+  float:right;
+}
+
+.switch-bg {
+  width: 60px;
+  height: 34px;
+}
+
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 19px;
+  width: 19px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.switch-bg .slider:before {
+  height: 26px;
+  width: 26px;
+}
+
+input.default:checked + .slider {
+  background-color: theme-color("secondary");
+}
+input.primary:checked + .slider {
+  background-color: theme-color("primary");
+}
+input.success:checked + .slider {
+  background-color: theme-color("success");
+}
+input.info:checked + .slider {
+  background-color: theme-color("info");
+}
+input.warning:checked + .slider {
+  background-color: theme-color("warning");
+}
+input.danger:checked + .slider {
+  background-color: theme-color("danger");
+}
+ 
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* Alert */
+.alert .alert-icon-col {
+    min-width: 25px;
+    max-width: 25px;
+}
+
+.alert-link {
+    /* i find 700 to bold */
+    font-weight: 600;
+}
+
+.resize-none {
+  resize: none !important;
+}
+
+/* Width Helpers */
+.w-5 {width: 5% !important;}
+.w-10 {width: 10% !important;}
+.w-15 {width: 15% !important;}
+.w-20 {width: 20% !important;}
+.w-25 {width: 25% !important;}
+.w-30 {width: 30% !important;}
+.w-35 {width: 35% !important;}
+.w-40 {width: 40% !important;}
+.w-45 {width: 45% !important;}
+.w-50 {width: 50% !important;}
+.w-55 {width: 55% !important;}
+.w-60 {width: 60% !important;}
+.w-65 {width: 65% !important;}
+.w-70 {width: 70% !important;}
+.w-75 {width: 75% !important;}
+.w-80 {width: 80% !important;}
+.w-85 {width: 85% !important;}
+.w-90 {width: 90% !important;}
+.w-95 {width: 95% !important;}
+.w-100 {width: 100% !important;}
+.mw-100 {max-width: 100% !important;}
